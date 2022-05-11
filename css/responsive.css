@@ -1,0 +1,102 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+.container {width:450px}
+    nav .logo {
+        width: 88%;
+    }
+    .logo span {
+        font-size: 30px;
+    }
+    .logo img {
+        margin-top: 0;
+    }
+    .left-img {
+        text-align: left;
+    }
+    .loving-poem {
+        width: 100%;
+    }
+    .loving-body {
+        display: block;
+    }
+    .loving-body h3 {
+        font-size: 34px;
+    }
+    .loving-poem .poem p {
+        text-align: left;
+        margin: 0;
+        font-size: 12px;
+        margin-left: 0;
+    }
+    .loving-img img {
+        margin-top: 30px;
+        width: 60%;
+    }
+    .lover-img img {
+        width: 50%;
+    }
+    .lover-person {
+        height: 100vh;
+    }
+    .contactForm {
+        margin-left: 0;
+        margin-top: -5%;
+    }
+    .contactForm .inputBox input, .contactForm .inputBox textarea {
+        width: 55%;
+    }
+    .section-title h2 {
+        font-size: 40px;
+        margin-left: -143px;
+        margin-bottom: 19px;
+    }
+    .gallery-box p {
+        padding: 0;
+        text-align: -moz-center;
+    }
+    .gallery-box p {
+        width: 65%;
+    }
+    .section-title h2 {
+        font-size: 36px;
+    }
+    .single-gallery {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .lover {
+        display: block;
+    }
+    .gallery-box p {
+        padding: 0;
+    }
+    .gallery-img img {
+        width: 63%;
+    }
+}
